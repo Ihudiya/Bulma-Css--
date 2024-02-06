@@ -29,16 +29,26 @@ body{
    
 }
 
- button a .button{
+.nav div a{
     text-decoration: none;
     color: black;
-    background-color: red;
-    border-radius: 15px solid blue;
+}
+
+.nav div a:hover{
+    color: rgb(122, 247, 122);
+}
+
+ .button:hover{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(224, 97, 224);
     border: none;
 }
 
 .button{
     margin: 10px;
+    text-decoration: none;
+    transition-delay: 1s ease-in ease-out ;
 }
 
 .nav{
